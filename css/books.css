@@ -1,0 +1,256 @@
+/*Start Books*/
+.books
+{
+  text-align: right;
+  margin-bottom: 10%;
+  margin-top: 4%
+}
+.books h2
+{
+  font-weight: 400;
+  border-bottom: 2px solid rgb(255, 127, 39);
+  padding-bottom: 1%;
+  margin-bottom: 2%
+}
+.books.container {
+    margin-top: 20px;
+  }
+.books .page {
+    display: none;
+  }
+.books .page-active {
+    display: block;
+  }
+.books .row 
+{
+  margin-bottom: 4%;
+  margin-right: 4%
+}
+.books .row .book  {
+    text-align: right;
+    font-size: 18px;
+    background: #fff;
+  }
+.books .row .book 
+  {
+      width: 400px;
+  }
+.books .row .book  img
+  {
+      width: 70%;
+  }
+.books .row .book .book-info
+  {
+      width: 70%;
+      border-top: 3px solid rgb(255, 127, 39);
+      border-bottom: 2px solid rgb(255, 127, 39);
+      height: 135px;
+      margin-bottom: 3%
+  }
+.books .row .book .book-info .rate
+  {
+      margin-top: 4%
+  }
+.books .row .book .book-info .rate .checked {
+    color: rgb(255, 127, 39);
+  }
+.books .row .book .book-info .rate span
+  {
+      cursor: pointer;
+  }
+.books .row .book .book-info .rate span:hover
+  {
+      color: rgb(255, 127, 39)
+  }
+.books .row .book .book-info h4
+ {
+     font-size: 18px;
+     font-weight: 400;
+     margin-top: 2%;
+ }
+ .books .row .book .book-info h4 a
+ {
+     color: #101010
+ }
+ .books .row .book .book-info h4 a:hover
+ {
+     text-decoration: none;
+     cursor: pointer;
+     color: rgb(255, 127, 39);
+     transition-duration: 0.5s
+ }
+ .books .row .book .book-info .writer-name
+ {
+     font-size: 16px;
+     color: rgb(64, 61, 61)
+ }
+ .books .row .book .paying
+{
+    width: 70%;
+}
+.books .row .book .paying .price
+{
+    font-size: 18px
+}
+.books .row .book .paying .addcart
+{
+    float: left;
+}
+.books .row .book .paying .addcart a
+{
+    color: rgb(255, 127, 39);
+    font-size: 25px
+}
+.books .pagination {
+  margin-right: 43%;
+}
+.books .pagination-lg .page-link {
+  color: rgb(255, 127, 39);
+  background-color: #fff;
+}
+.books .page-link:hover {
+  z-index: 2;
+  text-decoration: none;
+}
+.books .page-link:focus
+{
+  box-shadow: none
+}
+/*Media Queries*/
+
+/*For Mobile Phones*/
+@media  (max-width: 767px) {
+  .books {
+    margin-bottom: 35%
+  }
+  .books .row .book img {
+    height: 490px;
+}
+.books .row .book ,
+  .books .row .book .paying,
+  .books .row .book .book-info,
+  .books .row .book img
+  {
+      width: 100%;
+  }
+.books .row
+{
+  margin-right: 0%;
+  display: inherit;
+}
+.books .first
+{
+  margin-top: 6%
+}
+.books .row .col
+{
+  padding-right: 0;
+  margin-bottom: 8%;
+}
+.books .pagination {
+  margin-right: 30%;
+}
+} 
+
+/*For Iphone 6/6s/7/8*/
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .books .row .book img {
+      height: 490px;
+  }
+  .books .pagination {
+    margin-right: 32%;
+}
+
+}
+
+/*For Iphone 6/7/8 plus*/
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .books .row .book img {
+      height: 580px;
+  }
+  .books .pagination {
+    margin-right: 34%;
+}
+
+}
+
+/*For Tablets*/
+@media(min-width: 768px) and (max-width: 991px)
+{
+  .books
+  {
+    margin-bottom: 19%;
+  }
+  .books .row .book ,
+  .books .row .book .paying,
+  .books .row .book .book-info,
+  .books .row .book img
+  {
+      width: 100%;
+  }
+  .books .row .book .book-info {
+    height: 155px;
+}
+.books .row
+{
+  margin-right: 0%;
+}
+
+.books .row .col
+{
+  padding-right: 0;
+}
+.books .pagination {
+  margin-right: 39%;
+  margin-top: 2%
+}
+.books .first
+{
+  margin-top: 3%
+}
+}
+
+/*For Ipad Pro 12.9*/
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .books
+    {
+      margin-bottom: 13%
+    }
+    .books .row .book ,
+    .books .row .book .paying,
+    .books .row .book .book-info,
+    .books .row .book img
+    {
+        width: 100%;
+    }
+    .books .row .book .book-info {
+      height: 130px;
+  }
+  .books .row
+  {
+    margin-right: 0%;
+  }
+  
+  .books .row .col
+  {
+    padding-right: 0;
+  }
+  .books .pagination {
+    margin-right: 41%;
+  }
+  .books .first
+{
+  margin-top: 3%
+} 
+}
+
+

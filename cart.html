@@ -1,0 +1,228 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+            <meta charset="utf-8"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <link href="https://fonts.googleapis.com/css?family=Tajawal&display=swap" rel="stylesheet">
+            <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <title>ملتقى المعرفة بوك ستور | المشتريات</title>
+            <link rel="stylesheet" href="css/header&footer.css">
+            <link rel="stylesheet" href="css/cart.css">
+            <link rel="stylesheet" href="css/bootstrap.css">
+    </head>
+    <body>
+        <!--Start Header-->
+        <div class="header">
+                <nav class="navbar navbar-expand-xl">
+                        <a class="navbar-brand" href="#"><img src="images/logo.png" alt="brand"></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample06" aria-controls="navbarsExample06" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"><i class="fa fa-align-justify"></i></span>
+                        </button>
+                      
+                        <div class="collapse navbar-collapse" id="navbarsExample06">
+                          <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                              <a class="nav-link" href="home.html">الرئيسية</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="dropdown06" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">الكتب</a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdown06">
+                                        <a class="dropdown-item" href="books.html">الكل</a>
+                                        <a class="dropdown-item" href="social-books.html">إجتماعية</a>
+                                        <a class="dropdown-item" href="romantic-books.html">رومانسية</a>
+                                        <a class="dropdown-item" href="horror-books.html">رعب</a>
+                                        <a class="dropdown-item" href="children-books.html">أطفال</a>
+                                        <a class="dropdown-item" href="poetry-books.html">شعر</a>
+                                        <a class="dropdown-item" href="fantasia-books.html">فانتازيا</a>
+                                        <a class="dropdown-item" href="stories.html">مجموعات قصصية</a>
+                                        <a class="dropdown-item" href="others.html">أخرى</a>
+                                        <h5 class="dropdown-header">الدينية والتراثية <i class="fa fa-caret-down"></i></h5>
+                                        <a class="dropdown-item" href="religious-books.html">دينية</a>
+                                        <a class="dropdown-item" href="heritage-books.html">تراثية</a>
+                                    </div>
+                                  </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="events.html">فعاليات</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="publishing.html">شروط النشر</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="about.html">معلومات عنا</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">للتواصل معنا</a>
+                            </li>
+                            <li class="nav-item">
+                                    <a class="nav-link" href="cart.html">المشتريات <i class="fa fa-cart-plus"></i></a>
+                                </li>
+                          </ul>
+                          <form class="form-inline my-2 my-md-0">
+                            <input class="form-control" type="text" placeholder="بحث">
+                          </form>
+                          <a href="account.html" class="sign">تسجيل الدخول</a>
+                        </div>
+                      </nav>
+        </div>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up"></i></button>
+
+        <div class="cart container">
+            <!--First Row-->
+            <div class="row first">
+                <h3>المشتريات <span>(6)</span></h3>
+            </div>
+
+            <!--Second Row-->
+            <div class="row second container">
+                    <div class="col col-md-3 col-sm-4 col-xs-5">
+                            <img src="images/الراقصون.jpg" alt="book's img"/>
+                        </div>
+                        <div class="col info col-md-3 col-sm-2 col-xs-12">
+                            <h4 class="bookname">الراقصون على الجمر</h4>
+                            <a href="#" class="remove">مسح</a>
+                        </div>
+                        <div class="col bill col-md-6 col-sm-6 col-xs-12">
+                            <h4 class="price">السعر:
+                                <span>40 جم</span>
+                            </h4>    
+                            <input type="number" name="quantity" class="form-control bfh-number"/>
+                            <h4 class="total">إجمالي
+                                <span>120.00 جم</span>
+                            </h4>
+                        </div>
+            </div>
+
+            <!--Second Row-->
+            <div class="row second container">
+                    <div class="col col-md-3 col-sm-4 col-xs-5">
+                            <img src="images/المساخيط.jpg" alt="book's img"/>
+                        </div>
+                        <div class="col info col-md-3 col-sm-2 col-xs-12">
+                            <h4 class="bookname">المساخيط</h4>
+                            <a href="#" class="remove">مسح</a>
+                        </div>
+                        <div class="col bill col-md-6 col-sm-6 col-xs-12">
+                            <h4 class="price">السعر:
+                                <span>40 جم</span>
+                            </h4>    
+                            <input type="number" name="quantity" class="form-control bfh-number"/>
+                            <h4 class="total">إجمالي
+                                <span>40.00 جم</span>
+                            </h4>
+                        </div>
+            </div>
+
+            
+            <!--Third Row-->
+            <div class="row third">
+                    <div class="col buy col-md-6 col-sm-6 col-xs-12">
+                        <h4 class="subtotal">المبلغ
+                            <span>250.00 جم</span>
+                        </h4>
+                        <h4 class="shipping">الشحن
+                            <span>20.00 جم</span>
+                        </h4>
+                        <a href="#" class="country">مصر</a>
+                        <div class="line"></div>
+                        <h3 class="total">إجمالي
+                            <span>270.00 جم</span>
+                        </h3>
+                        <a class="check" href="#" data-toggle="modal" data-target="#myModal">الدفع <i class="fa fa-lock"></i></a>
+                        <!-- Modal -->
+                        <div class="modal fade" id="myModal" role="dialog">
+                            <div class="modal-dialog">
+    
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+                                    <div class="modal-body text-center">
+                                        <div class="col payment col-md-6 col-sm-6 col-xs-12 text-center">
+                                                <a href="#" class="paypal"><i class="fa fa-cc-paypal"></i></a>
+                                                <a href="#" class="visa"><i class="fa fa-cc-visa"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <a href="#" data-dismiss="modal">تم</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+            </div>
+        </div>
+
+
+        <!--Footer-->
+        <div class="footer">
+                <div class="container">
+                    
+                    <div class="row">
+                        <div class="address col-md-4 col-sm-4 col-xs-12">
+                            <h5>اتصل بنا</h5>
+                            <p><span><i class="fa fa-map"></i> </span>32 تقسييم النصر، حدائق حلوان، القاهرة.</p>
+                            <p><span><i class="fa fa-phone"></i> </span>+20 1278821670</p>
+                            <p><span><i class="fa fa-envelope"></i> </span>daralmoltaqa@gmail.com</p>
+                            </div>
+            
+                        <div class="policies col-md-4 col-sm-4 col-xs-12">
+                            <h5>معلومات</h5>
+                            
+                            <a href="return.html" class="p1">خصوصيات الشحن أو الأسترجاع</a>
+                            <a href="store.html" class="p2">سياسة المتجر</a>
+                            <a href="store.html" class="p3">طريقة الدفع أو السداد</a>
+                        </div>
+            
+                        <div class="subscribe col-md-4 col-sm-4 col-xs-12">
+                            <p>ارسل لنا بريدك الإلكتروني ليصلك العروض وأحدث الإصدارات لدينا</p>
+                            <input type="email" name="email" placeholder="البريد الإلكتروني">
+                            <button type="submit" name="send">إرسال</button>
+                        </div>
+                        </div>
+        
+                        <div class="row data">
+                        <div class="col socialmedia col-md-6 col-sm-6 col-xs-12 text-center">
+                            <a href="https://www.facebook.com/DarMoltaqaAlmarefa/"><i class="fa fa-facebook-square"></i></a>
+                            <a href="https://www.instagram.com/moltaqaalmarefa/"><i class="fa fa-instagram"></i></a>
+                            <a href="https://twitter.com/MoltaqaAlmarefa"><i class="fa fa-twitter-square"></i></a>
+                            </div>
+                        <div class="col payment col-md-6 col-sm-6 col-xs-12 text-center">
+                            <a href="#" class="paypal"><i class="fa fa-cc-paypal"></i></a>
+                            <a href="#" class="visa"><i class="fa fa-cc-visa"></i></a>
+                        </div>
+                        </div>
+            
+                </div>
+                    <div class="copyright col-xs-12">
+                        <div class="container text-center">
+                            <p>جميع حقوق النشر محفوظة - دار ملتقى المعرفة 2019</p>
+                        </div>
+                        </div>
+                </div>
+                            
+        <!--Scripts-->
+        <script src="scripts/jquery.js"></script>
+        <script src="scripts/bootstrap.min.js"></script>
+        <script>
+            window.onscroll = function() {scrollFunction()};
+  
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+              } else {
+                document.getElementById("myBtn").style.display = "none";
+              }
+            }
+  
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0; // For Safari
+              document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+            }
+  
+          </script>
+    </body>
+</html>

@@ -1,0 +1,80 @@
+
+.shipping.container
+{
+    text-align: right;
+    background-color: #fff;
+    width: 65%;
+    margin-top: 3%;
+    height: 450px;
+}
+.shipping .content
+{
+    margin: 2% auto;
+}
+.shipping .content h3
+{
+    font-weight: 400;
+    padding-top: 3%;
+    border-bottom: 1px solid rgb(255, 127, 39);
+    padding-bottom: 2%
+}
+.shipping .content p
+{
+    font-size: 18px;
+    margin-top: 2%
+}
+/*Media Queries*/
+
+/*For Mobile Phones*/
+@media  (max-width: 767px) {
+
+    .shipping.container
+    {
+        width: 95%;
+        margin-top: 2%;
+    }
+    .shipping .content h3
+    {
+        padding-bottom: 3.5%
+    }
+    .shipping .content p
+    {
+        margin-top: 4%
+    }
+   
+  } 
+  
+  
+  /*For Tablets*/
+  @media(min-width: 768px) and (max-width: 991px)
+  {
+    .shipping.container
+    {
+        width: 95%;
+        margin-top: 0%;
+        height: 485px;
+    }
+    .shipping .content h3
+    {
+        padding-bottom: 3.5%
+    }
+    .shipping .content p
+    {
+        margin-top: 4%
+    }
+  }
+  
+  /*For Ipad Pro 12.9*/
+  @media only screen 
+    and (min-device-width: 1024px) 
+    and (max-device-width: 1366px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+        .shipping.container {
+            width: 100%;
+            margin-top:0;
+            height: 770px;
+        }
+  }
+  
+  
+  

@@ -1,0 +1,159 @@
+/*Empty Div*/
+.empty
+{
+    margin-top: 2%
+}
+.empty.container
+{
+    height: 330px;
+    background-color: rgb(255, 127, 39);
+}
+.empty h3
+{
+    padding-top: 5%;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 2%
+}
+.empty h5
+{
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 2%
+}
+
+/*Start Contact*/
+.contact
+{
+    text-align: right;
+    margin-top: -8.5%;
+    margin-bottom: 3%
+}
+.contact .inputs
+{
+    width: 60%;
+    margin-right: 21%;
+    margin-top: 5%;
+}
+.contact .inputs input
+{
+    height: 40px;
+    border: none;
+}
+.contact .inputs input,
+.contact .inputs textarea
+{
+    border-bottom: 1.5px solid rgb(255, 127, 39);
+}
+.contact .inputs input,
+.contact .inputs textarea
+{
+    margin-bottom: 2%;
+    display: inline-block;
+    border-radius: 0
+}
+.contact .inputs [name="firstname"],
+.contact .inputs [name="lastname"],
+.contact .inputs [type="email"],
+.contact .inputs [type="number"]
+{
+    width: 48%
+}
+.contact .inputs textarea
+{
+    width: 96.7%;
+}
+.contact .inputs button
+{
+    font-size: 22px;
+    text-transform: capitalize;
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    background: none;
+    font-weight: 500;
+    margin-right: 38%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    border: none;
+    background: rgb(255, 127, 39);
+    color: #fff;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+/*Media Queries*/
+
+/*For Mobile Phones*/
+@media  (max-width: 767px) {
+    
+    .empty.container {
+        height: 265px;
+    }
+    .empty h3 {
+        padding-top: 8%;
+        margin-bottom: 4%;
+    }
+    .empty h5 {
+        margin-bottom: 5%;
+        margin-top: 6%;
+    }
+    .contact .inputs {
+        width: 100%;
+        margin-right: 0%; 
+        margin-top: 3%;
+    }
+    .contact .inputs [name="firstname"], 
+    .contact .inputs [name="lastname"], 
+    .contact .inputs [type="email"], 
+    .contact .inputs [type="number"],
+    .contact .inputs textarea {
+        width: 100%;
+        margin-bottom: 3%;
+    }
+    .contact .inputs button {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 6%;
+    }
+} 
+
+
+
+/*For Tablets*/
+@media(min-width: 768px) and (max-width: 991px)
+{
+    .empty.container {
+        height: 220px;
+    }
+    .contact .inputs {
+        width: 85%;
+        margin-right: 9%;
+        margin-top: 6%;
+    }
+    .contact .inputs button {
+        margin-right: 35%;
+        margin-bottom: 4%;
+    }
+}
+
+/*For Ipad Pro 12.9*/
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .empty.container {
+        height: 270px;
+    }
+    .contact .inputs {
+        width: 80%;
+        margin-right: 12%;
+        margin-top: 7%;
+    }
+    .contact .inputs button {
+        margin-right: 36%;
+    }
+    .contact {
+        height: 490px;
+    }
+}

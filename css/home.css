@@ -1,0 +1,181 @@
+
+/*Start intro*/
+.intro 
+{
+    margin-top: 1.5%;
+}
+.intro .carousel-item img
+{
+    height: 580px;
+}
+/*End intro*/
+
+/*Start Books*/
+.books
+{
+    margin-top: 6%;
+    margin-bottom: 6%
+}
+.books .swiper-container {
+    width: 85%;
+    height: 100%;
+    border-top: 3px solid rgb(255, 127, 39);
+  }
+  .books .swiper-container .swiper-wrapper
+  {
+    margin-right: 3%;
+  }
+  .books .swiper-container h2
+  {
+      margin: 3% auto;
+      font-weight: 400
+  }
+.books .swiper-container .swiper-slide {
+    text-align: right;
+    font-size: 18px;
+    background: #fff;
+  }
+  .swiper-slide.bookItem
+  {
+      width: 280px;
+  }
+  .swiper-slide.bookItem img
+  {
+      width: 70%;
+  }
+  .swiper-slide.bookItem .book-info
+  {
+      width: 70%;
+      border-top: 3px solid rgb(255, 127, 39);
+      border-bottom: 2px solid rgb(255, 127, 39);
+      height: 135px;
+      margin-bottom: 3%
+  }
+  .swiper-slide.bookItem .book-info .rate
+  {
+      margin-top: 4%
+  }
+  .swiper-slide.bookItem .book-info .rate .checked {
+    color: rgb(255, 127, 39);
+  }
+  .swiper-slide.bookItem .book-info .rate span
+  {
+      cursor: pointer;
+  }
+  .swiper-slide.bookItem .book-info .rate span:hover
+  {
+      color: rgb(255, 127, 39)
+  }
+ .swiper-slide.bookItem .book-info h4
+ {
+     font-size: 18px;
+     font-weight: 400;
+     margin-top: 2%;
+ }
+ .swiper-slide.bookItem .book-info h4 a
+ {
+     color: #101010
+ }
+ .swiper-slide.bookItem .book-info h4 a:hover
+ {
+     text-decoration: none;
+     cursor: pointer;
+     color: rgb(255, 127, 39);
+     transition-duration: 0.5s
+ }
+ .swiper-slide.bookItem .book-info .writer-name
+ {
+     font-size: 16px;
+     color: rgb(64, 61, 61)
+ }
+.swiper-slide.bookItem .paying
+{
+    width: 70%;
+}
+.swiper-slide.bookItem .paying .price
+{
+    font-size: 18px
+}
+.swiper-slide.bookItem .paying .addcart
+{
+    float: left;
+}
+.swiper-slide.bookItem .paying .addcart a
+{
+    color: rgb(255, 127, 39);
+    font-size: 25px
+}
+
+/*End Books*/
+
+
+/*Media Queries*/
+
+/*For Mobile Phones*/
+@media  (max-width: 767px) {
+    .intro .carousel-item img {
+        height: 210px;
+    }
+    /*Start Books*/
+    .books {
+    margin-top: 18%;
+    margin-bottom: 13%
+}
+.books .swiper-container h2 {
+    margin: 9% auto;
+}
+.swiper-slide.bookItem img,
+.swiper-slide.bookItem .book-info,
+.swiper-slide.bookItem .paying
+ {
+    width: 80%;
+}
+.swiper-slide.bookItem {
+    width: 100% !important;
+}
+.books .swiper-container .swiper-wrapper
+  {
+    margin-right: 10%;
+  }
+  .swiper-container-rtl .swiper-button-next, 
+  .swiper-container-rtl .swiper-button-prev {
+    right: 5px;
+    top: 40%;
+}
+  } 
+  
+  
+  /*For Tablets*/
+  @media(min-width: 768px) and (max-width: 991px)
+  {
+    .intro .carousel-item img {
+        height: 400px;
+    }
+    .books .swiper-container .swiper-slide {
+        width: 50% !important;
+    }
+    .books .swiper-container .swiper-wrapper {
+        margin-right: 7.5%;
+    }
+    .books .swiper-container h2 {
+        margin: 5% auto;
+    }
+  }
+  
+  /*For Ipad Pro 12.9*/
+  @media only screen 
+    and (min-device-width: 1024px) 
+    and (max-device-width: 1366px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+        .swiper-slide.bookItem .book-info {
+            height: 165px;
+        }
+        .swiper-container-rtl .swiper-button-next, 
+        .swiper-container-rtl .swiper-button-prev {
+          right: 5px;
+          top: 40%;
+      }
+  }
+  
+  
+  

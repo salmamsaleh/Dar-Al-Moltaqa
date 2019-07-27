@@ -1,0 +1,131 @@
+/*Start Account*/
+.account
+{
+    text-align: right;
+    margin-top: 3%;
+    margin-bottom: 5%
+}
+.account .row .signin h3,
+.account .row .signup h3
+{
+    color: #101010;
+    font-weight: 400;
+    padding-bottom: 1%;
+}
+.account .row .col .line
+{
+    border-bottom: 5px solid rgb(255, 127, 39);
+    width: 32%;
+    margin-bottom: 5%
+}
+.account .row .signin input,
+.account .row .signup input
+{
+    margin-bottom: 5%;
+    height: 40px;
+    width: 80%;
+    font-size: 17px;
+    border: none;
+    border-bottom: 1.5px solid rgb(255, 127, 39);
+    padding-bottom: 1%
+}
+.account .row .signin a
+{
+    font-size: 16px;
+    color: rgb(255, 127, 39)
+}
+.account .row .signin button,
+.account .row .signup button
+{
+    width: 80%;
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 3%;
+    background-color: rgb(255, 127, 39);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.account .row .signin input,
+.account .row .signin a,
+.account .row .signin button
+{
+    display: block
+}
+
+/*Media Queries*/
+
+/*For Mobile Phones*/
+@media  (max-width: 767px) {
+  .account .row .signin,
+  .account .row .signup 
+  {
+      flex-basis: auto
+  }
+  .account .row .signin input,
+  .account .row .signup input
+  {
+      width: 100%;
+  }
+  .account .row .col .line {
+    width: 54%;
+}
+.account .row .signin button, .account .row .signup button {
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 6%;
+}
+  } 
+
+  
+  /*For Iphone 6/7/8 plus*/
+  @media only screen 
+    and (min-device-width: 414px) 
+    and (max-device-width: 736px) 
+    and (-webkit-min-device-pixel-ratio: 3) { 
+      .account .row .col .line {
+        width: 48%;
+    }
+  }
+  
+  /*For Tablets*/
+  @media(min-width: 768px) and (max-width: 991px)
+  {
+    .account .row .col .line {
+      width: 55%;
+  }
+  .account .row .signin input, .account .row .signup input {
+    width: 90%;
+}
+.account .row .signin button, .account .row .signup button {
+  width: 90%;
+  margin-top: 6%;
+}
+.footer
+{
+  margin-top: 17%
+}
+  }
+  
+  /*For Ipad Pro 12.9*/
+  @media only screen 
+    and (min-device-width: 1024px) 
+    and (max-device-width: 1366px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+        
+.account .row .col .line {
+  width: 40%;
+}
+.account .row .signin input, .account .row .signup input {
+  width: 90%;
+}
+.account .row .signin button, .account .row .signup button {
+  width: 90%;
+  margin-top: 6%;
+}
+.footer
+{
+  margin-top: 37%
+}
+  }

@@ -1,0 +1,88 @@
+
+.store.container
+{
+    text-align: right;
+    background-color: #fff;
+    width: 65%;
+    margin-top: 3%;
+    height: 550px;
+}
+.store .content
+{
+    margin: 2% auto;
+}
+.store .content h3
+{
+    font-weight: 400;
+    padding-top: 3%;
+    border-bottom: 1px solid rgb(255, 127, 39);
+    padding-bottom: 2%
+}
+.store .content p
+{
+    font-size: 18px;
+    margin-top: 2%
+}
+.store .content .payment
+{
+    margin-top: 2.5%;
+}
+.store .content .payment a
+{
+    font-size: 45px;
+}
+.store .content .payment .paypal
+{
+    color: #737272;
+}
+.store .content .payment .visa
+{
+    color: rgb(255, 127, 39);
+    margin-right: 1%
+}
+
+
+/*Media Queries*/
+
+/*For Mobile Phones*/
+@media  (max-width: 767px) {
+    .store.container
+    {
+        width: 95%;
+        height: 850px;
+    }
+    .store .content h3
+    {
+        padding-bottom: 3%;
+        border-width: 2px
+    }
+    .store .content p
+    {
+        margin-top: 3%
+    }
+    
+  } 
+  
+  
+  /*For Tablets*/
+  @media(min-width: 768px) and (max-width: 991px)
+  {
+    .store.container
+    {
+        width: 95%;
+        height: 650px;
+    }
+    
+  }
+  
+  /*For Ipad Pro 12.9*/
+  @media only screen 
+    and (min-device-width: 1024px) 
+    and (max-device-width: 1366px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+        .store.container
+    {
+        width: 95%;
+        height: 760px;
+    }
+  }

@@ -1,0 +1,88 @@
+/*Start Book Details*/
+.book
+{
+    text-align: right;
+    margin-top: 2%;
+    margin-bottom: 4%
+}
+.book .row .col img
+{
+    width: 75%;
+    height: 560px;
+    
+}
+.book .row .col .descrip
+{
+    margin-top: 5%;
+    width: 75%
+}
+.book .row .col .descrip p
+{
+    font-size: 17px;
+}
+.book .row .col h2
+{
+    margin-top: 4%;
+    font-weight: 400
+}
+.book .row .col .salary
+{
+    color: #999997;
+    margin-bottom: 8%
+}
+.book .row .col .quantity
+{
+    color: #575757;
+}
+.book .row .col .form-control
+{
+    width: 70px;
+    height: 40px;
+    margin-bottom: 10%;
+    border-radius: 0
+}
+.book .row .col a
+{
+    display: inline-block;
+    height: 40px;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(255, 127, 39);
+    color: #fff;
+    padding-top: 1.3%
+}
+.book .row .col h5
+{
+    font-size: 16px;
+    margin-top: 3%
+}
+.book .row .col .content p
+{
+    font-size: 16px;
+}
+.book .row .col .accordion .card
+{
+    background-color: #fff;
+    border-radius: 0;
+    border: none;
+    margin-bottom: -4%;
+}
+.book .row .col .accordion .card .card-body h5
+{
+    font-weight: 400
+}
+.book .row .col .accordion .card .card-header
+{
+    background: none;
+}
+.book .row .col .accordion .card .card-header h2 button
+{
+    color: rgb(255, 127, 39);
+}
+.book .row .col .accordion .card .card-header h2 button:hover,
+.book .row .col .accordion .card .card-header h2 button:focus,
+.book .row .col a
+{
+    text-decoration: none
+}

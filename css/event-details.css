@@ -1,0 +1,114 @@
+/*Start Event-details*/
+.event-details
+{
+    text-align: right;
+    margin-top: 2%;
+    margin-bottom: 3%
+}
+.event-details.container
+{
+    width: 65%
+}
+.event-details h3
+{
+    font-weight: 400;
+    border-bottom: 2px solid rgb(255, 127, 39);
+    padding-bottom: 2%;
+}
+.event-details .row p
+{
+    font-size: 18px;
+    margin-top: 1%
+}
+.event-details .row .photos
+{
+    margin-top: 2%
+}
+.event-details .row .photos img
+{
+    width: 100%;
+    height: 200px;
+}
+.event-details .third p
+{
+    margin-right: 43%
+}
+.event-details .first,
+.event-details .second,
+.event-details .third
+{
+    margin-bottom: 3%
+}
+
+/*Media Queries*/
+
+/*For Mobile Phones*/
+@media  (max-width: 767px) {
+    .event-details.container {
+        width: 95%;
+        margin-bottom: 10%
+    }
+    .event-details .row .photos img {
+        width: 313px;
+        height: 200px;
+        margin-bottom: 4%;
+    }
+    .event-details h3 {
+        padding-bottom: 4%;
+    }
+    .event-details .third p {
+        margin-right: 28%;
+    }
+    
+  } 
+
+  
+  /*For Iphone 6/6s/7/8*/
+  @media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 667px) 
+    and (-webkit-min-device-pixel-ratio: 2) { 
+        .event-details .row .photos img {
+            width: 327px;
+        }
+    
+  }
+  
+  /*For Iphone 6/7/8 plus*/
+  @media only screen 
+    and (min-device-width: 414px) 
+    and (max-device-width: 736px) 
+    and (-webkit-min-device-pixel-ratio: 3) { 
+     
+        .event-details .row .photos img {
+            width: 365px;
+        }
+  }
+  
+  /*For Tablets*/
+  @media(min-width: 768px) and (max-width: 991px)
+  {
+    .event-details.container {
+        width: 95%;
+        margin-bottom: 6%;
+    }
+    .event-details .third p {
+        margin-right: 39%;
+    }
+
+  }
+  
+  /*For Ipad Pro 12.9*/
+  @media only screen 
+    and (min-device-width: 1024px) 
+    and (max-device-width: 1366px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+        .event-details.container {
+            width: 95%;
+            margin-bottom: 8%;
+            height: 685px;
+        }      
+        .event-details .third p {
+            margin-right: 39%;
+        }
+  }

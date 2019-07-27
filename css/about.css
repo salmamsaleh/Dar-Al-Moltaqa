@@ -1,0 +1,100 @@
+/*Start about*/
+.about
+{
+    margin-top: 2%;
+    text-align: right;
+    margin-bottom: 3%
+}
+.about h4
+{
+    color: rgb(21, 21, 32);
+    padding-top: 2%;
+    font-weight: 400;
+    margin-bottom: 2%
+}
+.about .line
+{
+    border: none;
+    border-bottom: 2px solid rgb(255, 127, 39);
+    width: 20%
+}
+.about p
+{
+    color: rgb(21, 21, 32);
+    margin-top: 2%;
+    font-size: 17px
+}
+
+/*Media Queries*/
+
+/*For Mobile Phones*/
+@media  (max-width: 767px) {
+
+    /*Start about*/
+.about
+{
+    margin-bottom: 8%
+}
+.about .line
+{
+    width: 65%
+}
+.about p
+{
+    margin-top: 5%;
+}
+   
+  } 
+  
+  /*For Iphone 6/6s/7/8*/
+  @media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 667px) 
+    and (-webkit-min-device-pixel-ratio: 2) { 
+    
+        .about .line
+        {
+            width: 63%
+        }
+  }
+  
+  /*For Iphone 6/7/8 plus*/
+  @media only screen 
+    and (min-device-width: 414px) 
+    and (max-device-width: 736px) 
+    and (-webkit-min-device-pixel-ratio: 3) { 
+        .about .line {
+            width: 56%;
+        }
+  
+  }
+  
+  /*For Tablets*/
+  @media(min-width: 768px) and (max-width: 991px)
+  {
+    .about .line
+    {
+        width: 32%
+    }
+    .about {
+        margin-top: 0%;
+        margin-bottom: 5%;
+    }
+  }
+  
+  /*For Ipad Pro 12.9*/
+  @media only screen 
+    and (min-device-width: 1024px) 
+    and (max-device-width: 1366px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+      
+        .about .line {
+            width: 23%;
+        }
+        .about {
+            margin-top: 0;
+        }
+  }
+  
+  
+  
